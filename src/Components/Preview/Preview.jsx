@@ -8,7 +8,7 @@ function Preview() {
   return (
     <>
       <div className="iphonePreview">
-      <Spline scene="https://prod.spline.design/xLT3GzpTaFQH8Ka8/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/xLT3GzpTaFQH8Ka8/scene.splinecode" className="spline"/>
         {/* <svg
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"

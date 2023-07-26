@@ -3,11 +3,10 @@ import Preview from './Components/Preview/Preview';
 import Features from './Components/Features/Features';
 import Footer from './Components/Footer/Footer';
 
-import { inject } from '@vercel/analytics';
+import { Analytics } from '@vercel/analytics/react';
 
 import './App.scss';
 
-inject();
 
 function App() {
   return (
@@ -18,6 +17,7 @@ function App() {
           <Preview />
           <Features />
           <Footer />
+          <Analytics />
         </div>
       </div>
     </div>
