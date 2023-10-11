@@ -1,0 +1,34 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "subdomain.buryad-toli.site"
+        }
+      ],
+      "destination": "/oracle/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "subdomain.buryad-toli.site"
+        }
+      ],
+      "destination": "/oracle"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "123subdomain.buryad-toli.site"
+        }
+      ],
+      "destination": "/neoracle"
+    }
+  ]
+}
