@@ -1,5 +1,5 @@
-import React from "react";
 import Spline from '@splinetool/react-spline';
+import React from "react";
 import "./Preview.scss";
 
 
@@ -47,7 +47,7 @@ function Preview() {
             <img
               alt="Скачать приложение для изучения бурятского языка app store"
               className="appStore store"
-              src="/assets/appstore.png"
+              src="/assets/appstore-ru.png"
             />
           </a>
           <a
@@ -57,7 +57,7 @@ function Preview() {
             <img
               alt="Скачать приложение для изучения бурятского языка google play"
               className="googleplay store"
-              src="/assets/googleplay.png"
+              src="/assets/googleplay-ru.png"
             />
           </a>
         </div>
