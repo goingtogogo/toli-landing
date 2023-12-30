@@ -4,7 +4,6 @@
 .appInfo {
   grid-area: i;
   display: flex;
-  // flex-wrap: wrap;
   padding-top: 140px;
   align-content: flex-start;
   flex-direction: column;
@@ -12,7 +11,7 @@
 
 @media only screen and (max-width: 992px) {
   .appInfo {
-    padding-top: 50px;
+    padding-top: 0;
     justify-content: center;
   }
 }
@@ -59,9 +58,10 @@
   }
 
   .appName {
-    margin-top: 30px;
     text-align: center;
-    font-size: 48px;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 24px;
   }
 
   .appStore {

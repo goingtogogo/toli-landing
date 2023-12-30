@@ -7,8 +7,6 @@ function Features() {
       title: "Переводчик",
       description:
         "В приложении есть встроенная функция \"Переводчик\", которая позволит Вам быстро перевести нужное слово",
-      // description:
-      // 'You can enjoy a fast, secure connection without any third party knowing your true identity.',
       fontawesome_icon_name: "globe",
     },
 
@@ -30,7 +28,7 @@ function Features() {
       title: "Добавление своих слов",
       description:
         "Вы также можете добавлять свои собственные слова и фразы в приложение. Так, они всегда будут под рукой",
-      fontawesome_icon_name: "pencil",
+      fontawesome_icon_name: "globe",
     },
     {
       title: "Формирование привычки",
@@ -48,7 +46,7 @@ function Features() {
 
   return (
     <div className="features">
-      <h1>Помощник в изучении бурятского у Вас в кармане</h1>
+      <h1>Помощник в&nbsp;изучении бурятского у&nbsp;Вас в&nbsp;кармане</h1>
       <div className="features-list">
         {features.map((feature, i) => {
           const iconClassName = `iconTop fas fa-${feature.fontawesome_icon_name} fa-stack-1x`;
