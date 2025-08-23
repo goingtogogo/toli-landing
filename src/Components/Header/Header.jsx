@@ -34,14 +34,9 @@ function Header() {
           <li>
             <a
               className="umami--click--header-contact-us"
-              href="mailto:toli.app.ios@gmail.com?subject=Mail from Landing Page"
+              href="mailto:toli.language.app@gmail.com?subject=Mail from Landing Page"
             >
               Связаться с нами
-            </a>
-          </li>
-          <li>
-            <a className="umami--click--header-tg-chat" href="https://t.me/apptoli">
-              Сообщество
             </a>
           </li>
         </ul>
